@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.title-text {
+    background-color: #2e354f;
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section, .contact-section {
+    margin-top: 20px;
+}
+
+.link {
+    color: orangered;
+}
+
+.btn {
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: orangered;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    color: #2e354f;
+    background-color: #d4b44c;
+}
