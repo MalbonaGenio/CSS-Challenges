@@ -1,0 +1,36 @@
+/* DON'T TOUCH THIS! */
+body {
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+/* We mainly use a class to style a button link and then the use of pseudoclasses to make that style change when, in this case, the cursor hovers over it. */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+	background-color: #ef5839;
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+	padding: 10px 20px;
+}
+
+/* Do not need to set again the padding or other properties because they already get inherited from .btn. Only need to change the ones we want to modify. */
+
+.btn:hover, .btn:focus {
+	background-color: #d4b44c;
+	color: #2e354f;
+	font-size: 32px;
+}
